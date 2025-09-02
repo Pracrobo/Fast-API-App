@@ -25,7 +25,7 @@ pip instatll "uvicorn[standard]"
 
 ```bash
 uvicorn main:app --reload
-```
+````
 기본 : 8000
 swagger 자동 생성: docs
 swagger 수정 : redoc
@@ -48,7 +48,7 @@ item : Item
 
 입력 데이터 변환: 네트워크에서 파이썬 데이터 및 타입으로 전송. 읽을 수 있는 것들:
 - JSON.
-- 경로 매개변수.
+- 경로 매개변수.`
 - 쿼리 매개변수.
 - 쿠키.
 - 헤더.
